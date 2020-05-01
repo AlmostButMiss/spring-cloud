@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: sping-cloud-client-demo
+server:
+  port: 9898
