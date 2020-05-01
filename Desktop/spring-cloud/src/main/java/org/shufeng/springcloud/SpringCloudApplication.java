@@ -15,7 +15,5 @@ public class SpringCloudApplication {
         SpringApplication springApplication = new SpringApplication(SpringCloudApplication.class);
         springApplication.addInitializers(new InitListener());
         ConfigurableApplicationContext applicationContext = springApplication.run(args);
-        applicationContext.getEnvironment();
-        System.out.println();
     }
 }

@@ -11,7 +11,9 @@ spring:
     config:
       server:
         git:
-          uri: ${user.dir}/src/main/resources/configs
+          #uri: ${user.dir}/src/main/resources/configs
+          uri: https://github.com/AlmostButMiss/spring-cloud.git
+          force-pull: true
 
 server:
   port: 9696
